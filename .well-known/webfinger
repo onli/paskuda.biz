@@ -1,0 +1,10 @@
+{
+    "subject": "acct:onli@paskuda.biz",
+    "links":
+    [
+        {
+        "rel": "https://portier.io/specs/auth/1.0/idp",
+        "href": "http://idp.onli-blogging.de"
+        }
+    ]
+}
