@@ -60,7 +60,7 @@ nav ul a {
     color: #FCFFF5;
     display: block;
     padding: 1em;
-    border-bottom: 1px dashed #fdfdfd;
+    border-bottom: 1px solid #4582BF;
 }
 
 nav ul li:last-child a {
