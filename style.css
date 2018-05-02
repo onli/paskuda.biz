@@ -5,6 +5,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h2, h2, h3 {
+    font-weight: 400;
+}
+
 .projectdesc {
     display: none;
 }
@@ -17,12 +21,25 @@ body {
     margin-right: 2em;
 }
 
-ul {
+nav ul {
     list-style-type: none;
+    padding: 0;
+    background: #2F6CA8;
+    box-shadow: 3px 3px 5px #d1d1d1;
 }
 
 nav {
     display: block;
+}
+
+nav h2 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+nav h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 a {
@@ -33,16 +50,6 @@ a:visited {
     color: #575191;
 }
 
-nav ul li {
-    background-color: #2F6CA8;
-    margin-bottom: 0.2em;
-    text-align: left;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.2em;
-    border: 2px solid  #2F6CA8;
-}
-
 nav ul li:hover {
     background-color: #2D6196;
     border-color: #2D6196;
@@ -51,6 +58,13 @@ nav ul li:hover {
 nav ul a {
     text-decoration: none;
     color: #FCFFF5;
+    display: block;
+    padding: 1em;
+    border-bottom: 1px dashed #fdfdfd;
+}
+
+nav ul li:last-child a {
+    border-bottom: none;
 }
 
 nav ul a:active {

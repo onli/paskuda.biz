@@ -19,39 +19,40 @@
         <nav>
             <h2>Projekte</h2>
             <ul>
-                <a href="#modmic"><li>modmic</li></a>
-                <a href="#rsspusher"><li>rsspusher</li></a>
-                <a href="#music-streamer"><li>music-streamer</li></a>
-                <a href="#ursprung"><li>ursprung</li></a>
-                <a href="#pc-kombo"><li>pc-kombo</li></a>
-                <a href="#izulu"><li>izulu</li></a>
-                <a href="#simdock"><li>simdock</li></a>
-                <a href="#feedtragon"><li>feedtragón</li></a>
+                <li><a href="#pc-kombo">pc-kombo</a></li>
+                <li><a href="#pipes">pipes</li></a>
+                <li><a href="#izulu">izulu</li></a>
+                <li><a href="#ursprung">ursprung</li></a>
+                <li><a href="#modmic">modmic</li></a>
+                <li><a href="#rsspusher">rsspusher</li></a>
+                <li><a href="#music-streamer">music-streamer</li></a>
+                <li><a href="#simdock">simdock</li></a>
+                <li><a href="#feedtragon">feedtragón</li></a>
             </ul>
 
             <h2>Serendipity</h2>
             <h3>Plugins</h3>
             <ul>
-                <a href="#bayes"><li>Spamblock-Bayes</li></a>
-                <a href="#autotitle"><li>autotitle</li></a>
-                <a href="#autoupdate"><li>autoupdate</li></a>
-                <a href="#commentedit"><li>commentedit</li></a>
-                <a href="#template-editor"><li>Template-Editor</li></a>
-                <a href="#liquid"><li>liquid</li></a>
-                <a href="#dbclean"><li>dbclean</li></a>
+                <li><a href="#bayes">Spamblock-Bayes</a></li>
+                <li><a href="#autotitle">autotitle</a></li>
+                <li><a href="#autoupdate">autoupdate</a></li>
+                <li><a href="#commentedit">commentedit</a></li>
+                <li><a href="#template-editor">Template-Editor</a></li>
+                <li><a href="#liquid">liquid</a></li>
+                <li></li><a href="#dbclean">dbclean</a></li>
             </ul>
             <h3>Themes</h3>
             <ul>
-                <a href="#photo"><li>photo</li></a>
-                <a href="#bartleby"><li>bartleby</li></a>
+                <li><a href="#photo">photo</a></li>
+                <li></li><a href="#bartleby">bartleby</a></li>
             </ul>
             <h2>Uni</h2>
             <ul>
-                <a href="#quora"><li>Quora-Studie</li></a>
-                <a href="#youtube"><li>Youtube-Studie</li></a>
-                <a href="#master"><li>Masterarbeit</li></a>
-                <a href="#projektarbeit"><li>Master-Projektarbeit</li></a>
-                <a href="#bachelor"><li>Bachelorarbeit</li></a>
+                <li><a href="#quora">Quora-Studie</a></li>
+                <li><a href="#youtube">Youtube-Studie</a></li>
+                <li><a href="#master">Masterarbeit</a></li>
+                <li><a href="#projektarbeit">Master-Projektarbeit</a></li>
+                <li></li><a href="#bachelor">Bachelorarbeit</a></li>
             </ul>
             <select>
                 <option value="" selected="selected">Navigation</option>
@@ -88,14 +89,23 @@
 
         <section id="pc-kombo" class="projectdesc">
             <h2>pc-kombo</h2>
-            <p class="summary">Benchmarkbasierender Hardwareempfehler für Prozessor und Grafikkarte</p>
-            <p>Ab und an helfe ich Freunden dabei, ihre neue Computer zusammenzustellen. Mein Vorgehen bei den Kernkomponenten
-            ist dabei immer ähnlich: Benchmarks lesen, Preise vergleichen und zueinander passende Hardware auswählen. <a href="http://www.pc-kombo.de">pc-kombo</a> macht
-            genau das, was ich sonst manuell mache, automatisiert, mit mehr Hardware und deswegen meist besser.</p>
+            <p class="summary">Benchmarkbasier Hardwareempfehler für PC-Hardware</p>
+            <p>Aus einem kleinen Nebenprojekt wurde ein sehr großes: Ein mächtiger Hardwareempfehler samt Meta-Benchmark, Upgrade-Empfehlungen, detaillierten Produktspezifikationen und Preisvergleich.</p>
            <a href="http://www.pc-kombo.de">
-                <noscript><img src="https://lh6.googleusercontent.com/-aOAR87Rx9Lg/UZlNGSuHIpI/AAAAAAAACkI/HGaehknhoOE/s800/pc-kombo-new.png" height="623" width="800" /></noscript>
-                <img data-src="https://lh6.googleusercontent.com/-aOAR87Rx9Lg/UZlNGSuHIpI/AAAAAAAACkI/HGaehknhoOE/s800/pc-kombo-new.png" height="623" width="800" />
+                <noscript><img src="files/pckombo052018_tiny.png" width="800" /></noscript>
+                <img data-src="files/pckombo052018_tiny.png" width="800" />
             </a>
+            <strong>Projektseite:</strong> <a href="https://www.pc-kombo.com">pc-kombo.com</a>
+        </section>
+        <section id="pipes" class="projectdesc">
+            <h2>pipes</h2>
+            <p class="summary">Visueller Editor für Feeds</p>
+            <p>Yahoo! Pipes war ein mächtiges Werkzeug zum Arbeiten mit in Feeds verpackten Daten. Pipes greift viele der Ideen der abgeschalteten Seite auf, und ermöglicht so insbesondere das Filtern und Kombinieren von RSS-Feeds.</p>
+           <a href="http://www.pc-kombo.de">
+                <noscript><img src="https://www.pipes.digital/pipe-example2.png" width="800" /></noscript>
+                <img data-src="https://www.pipes.digital/pipe-example2.png" width="800" />
+            </a>
+            <strong>Projektseite:</strong> <a href="https://pipes.digital">pipes.digital</a>
         </section>
         <section id="izulu" class="projectdesc">
             <h2>izulu</h2>
@@ -132,7 +142,7 @@
             <p class="summary">RSS-Polling-Infrastruktur</p>
             <p>Ein Webdienst, dem Feedadressen und eine Callback-URL gegeben werden, und der die Callback-URL bei Updates der Feeds benachrichtigt.
             Nutzt Pubsubhubbub und rssCloud, wenn die Feeds das unterstützen.</p>
-            <strong>Projektseite:</strong> <a href="http://rsspusher.eu01.aws.af.cm/">rsspusher</a>
+            <strong>Projektseite:</strong> <a href="https://github.com/onli/rsspusher">rsspusher</a>
         </section>
         <section id="ursprung" class="projectdesc">
             <h2>ursprung</h2>
