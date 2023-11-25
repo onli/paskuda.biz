@@ -67,12 +67,15 @@ a:hover {
 img {
     max-width: 95%;
     width: 800px;
+    border: 2px solid;
 }
 
 .lefticon {
-    width: 64px;
+    width: auto;
     float: left;
     padding: 0.5em;
+    max-width: 64px;
+    border: none;
 }
 
 @media only screen and (max-width: 600px) {
